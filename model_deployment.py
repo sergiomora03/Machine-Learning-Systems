@@ -8,7 +8,7 @@ import pickle
 
 def predict_proba(Year,Mileage,State,Make,Model):
 
-    reg = joblib.load(os.path.dirname(__file__) + '/super_learner2.pkl')
+    reg = joblib.load(os.path.dirname(__file__) + '/super_learner.pkl')
 #    reg = pickle.load(open(os.path.dirname(__file__) + '/super_learner.sav','rb'))
 
     data=pd.DataFrame({'Year':[Year],
