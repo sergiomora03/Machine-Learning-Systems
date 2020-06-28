@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
 import pandas as pd
+from numpy import zeros as zr
+from numpy import sum as npsum
 import joblib
 import sys
 import os
@@ -8,7 +10,7 @@ import pickle
 
 def predict_proba(Year,Mileage,State,Make,Model):
 
-    reg = joblib.load(os.path.dirname(__file__) + '/super_learner.pkl')
+    reg = joblib.load(os.path.dirname(__file__) + '/model_lr.pkl')
 #    reg = pickle.load(open(os.path.dirname(__file__) + '/super_learner.sav','rb'))
 
     data=pd.DataFrame({'Year':[Year],
@@ -27,8 +29,15 @@ def predict_proba(Year,Mileage,State,Make,Model):
     for model in models:
         data['Model_' + model] = data.Model.str.contains(model).astype(int)
     data.drop(['State','Make','Model'], axis=1, inplace=True)
-
-    p1 = reg.predict(data.values)[0].astype(str)
+    
+    alpha = pd.read_csv('alpha.csv').values
+    cant = len(alpha)
+    pred = zr(cant)
+    for i in range(cant):
+        pred[i] = reg[i].predict(data)*alpha[i]
+    p1 = npsum(pred)
+    
+#    p1 = reg.predict(data.values)[0].astype(str)
 #    p1 = reg.predict(data.values)[0,1]
 
     return p1
