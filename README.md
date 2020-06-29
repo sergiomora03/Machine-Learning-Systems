@@ -1,12 +1,4 @@
-<center>
-
- 
-
 ![](https://investigaciones.uniandes.edu.co/wp-content/themes/vicerrectoria001/images/logo2.png)
-
- 
-
-</center>
 
  
 
