@@ -46,7 +46,7 @@ The use of statistical models in computer algorithms allows computers to make de
 
 |Description|File|
 |----|--------|
-|Notebook|[Deploy](https://colab.research.google.com/drive/1egQQUPk7hN66mEf05-9g6jhf-sp9WqSc#scrollTo=Us_FZFQ8OVBq)|
+|Notebook|[Project 2](https://nbviewer.jupyter.org/github/sergiomora03/MachineLearningSystems/blob/master/P2_Machine_Learning_Systems.ipynb)|
 |Dataset|[Kaggle Dataset](https://raw.githubusercontent.com/albahnsen/AdvancedMethodsDataAnalysisClass/master/datasets/dataTrain_carListings.zip)|
 |API|[Car Price Predictor](http://ec2-3-14-9-184.us-east-2.compute.amazonaws.com:8888/)|
 
