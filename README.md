@@ -58,7 +58,7 @@ The use of statistical models in computer algorithms allows computers to make de
 
 |Description  | File|
 |-----------: |:------------:|
-|7 Excercise| [E7]() |
+|7 Excercise| [E7](https://nbviewer.jupyter.org/github/NecesitoUnNick/P2/blob/master/Excercises/Ejecicio7.ipynb) |
 |8 Excercise| [E8](https://nbviewer.jupyter.org/github/NecesitoUnNick/P2/blob/master/Excercises/Ejercicio8-RandomForests_Boosting.ipynb) |
 
  
