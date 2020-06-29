@@ -53,8 +53,8 @@ The use of statistical models in computer algorithms allows computers to make de
 
 |Description  | File|
 |-----------: |:------------:|
-|7 Excercise| [E7 - DT & Ensembles](https://nbviewer.jupyter.org/github/NecesitoUnNick/P2/blob/master/Excercises/Ejecicio7.ipynb) |
-|8 Excercise| [E8 - Random Forest & Gradient Boosting](https://nbviewer.jupyter.org/github/NecesitoUnNick/P2/blob/master/Excercises/Ejercicio8-RandomForests_Boosting.ipynb) |
+|7 Excercise| [E7 - DT & Ensembles](https://github.com/NecesitoUnNick/P2/blob/master/Excercises/Ejercicio7-DecisionTrees.ipynb) |
+|8 Excercise| [E8 - Random Forest & Gradient Boosting](https://github.com/NecesitoUnNick/P2/blob/master/Excercises/TallerE8-RdmForests_Boosting_CarPred.ipynb) |
 
 
 
