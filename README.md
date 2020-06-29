@@ -2,7 +2,7 @@
 
  
 
-![](https://raw.githubusercontent.com/sergiomora03/MachineLearningSystems/master/notebooks/images/logo-uniandes%20(1).png)
+![](https://investigaciones.uniandes.edu.co/wp-content/themes/vicerrectoria001/images/logo2.png)
 
  
 
