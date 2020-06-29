@@ -58,7 +58,7 @@ The use of statistical models in computer algorithms allows computers to make de
 
 |Description  | File|
 |-----------: |:------------:|
-|    Notebooks Excercises | deploy |
+|8 Excercise| deploy |
 
  
 
