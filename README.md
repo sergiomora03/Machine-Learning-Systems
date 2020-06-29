@@ -46,7 +46,7 @@ The use of statistical models in computer algorithms allows computers to make de
 
 |Description|File|
 |----|--------|
-|Notebook|[Project 2](https://nbviewer.jupyter.org/github/sergiomora03/MachineLearningSystems/blob/master/P2_Machine_Learning_Systems.ipynb)|
+|Notebook|[P2 - Machine Learning Systems](https://nbviewer.jupyter.org/github/sergiomora03/MachineLearningSystems/blob/master/P2_Machine_Learning_Systems.ipynb)|
 |Dataset|[Kaggle Dataset](https://raw.githubusercontent.com/albahnsen/AdvancedMethodsDataAnalysisClass/master/datasets/dataTrain_carListings.zip)|
 |API|[Car Price Predictor](http://ec2-3-14-9-184.us-east-2.compute.amazonaws.com:8888/)|
 
@@ -61,41 +61,10 @@ The use of statistical models in computer algorithms allows computers to make de
 |7 Excercise| [E7](https://nbviewer.jupyter.org/github/NecesitoUnNick/P2/blob/master/Excercises/Ejecicio7.ipynb) |
 |8 Excercise| [E8](https://nbviewer.jupyter.org/github/NecesitoUnNick/P2/blob/master/Excercises/Ejercicio8-RandomForests_Boosting.ipynb) |
 
- 
 
- 
 
-# P2 - Machine Learning Systems
 
- 
 
-## Exercise P2.1 (50%)
 
- 
 
-Develop a machine learning model that predicts the price of the of car using as an input ['Year', 'Mileage', 'State', 'Make', 'Model']
 
- 
-
-#### Evaluation:
-- 25% - Performance of the models using a manually implemented K-Fold (K=10) cross-validation
-- 25% - Notebook explaining the process for selecting the best model. You must specify how the calibration of each of the parameters is done and how these change the performance of the model. It is expected that a clear comparison will be made of all implemented models.. Present the most relevant conslusions about the whole process. 
-
- 
-
-## Exercise P2.2 (50%)
-
- 
-
-Create an API of the model.
-
- 
-
-Example:
-![](https://raw.githubusercontent.com/albahnsen/PracticalMachineLearningClass/master/notebooks/images/img015.PNG)
-
- 
-
-#### Evaluation:
-- 40% - API hosted on a cloud service
-- 10% - Show screenshots of the model doing the predictions on the local machine
