@@ -48,6 +48,7 @@ The use of statistical models in computer algorithms allows computers to make de
 |----|--------|
 |Notebook|[Deploy](https://colab.research.google.com/drive/1egQQUPk7hN66mEf05-9g6jhf-sp9WqSc#scrollTo=Us_FZFQ8OVBq)|
 |Dataset|Deploy|
+|API|[Car Price Predictor](http://ec2-3-14-9-184.us-east-2.compute.amazonaws.com:8888/)|
 
  
 
